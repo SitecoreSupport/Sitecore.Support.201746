@@ -16,8 +16,7 @@
   using System.Collections.Generic;
   using System.Linq;
   using System.Linq.Expressions;
-  using System.Runtime.InteropServices;
-
+ 
   public class DomainMatcherEntityRepository : IDomainMatcherEntityRepository, IRepository<DomainMatcherEntity>
   {
     private readonly IConfigurationFactory configurationFactory;
